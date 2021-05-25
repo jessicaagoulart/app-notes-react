@@ -1,0 +1,33 @@
+.formulario-cadastro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1rem;
+}
+
+.formulario-cadastro-input {
+	width: 500px;
+	margin: 0.5rem;
+	padding: 4px;
+	border: none;
+	background-color: rgb(221, 221, 221);
+	font-weight: 100;
+	border-radius: 4px;
+}
+
+.formulario-cadastro-input:first-child {
+	padding: 6px 4px;
+}
+
+.formulario-cadastro-submit {
+	align-self: flex-end;
+	width: 20%;
+	color: white;
+	border-radius: 20px;
+	border: 0px;
+	background-color: #999;
+}
+
+.formulario-cadastro-submit:active {
+	background-color: #777;
+}
