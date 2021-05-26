@@ -7,16 +7,12 @@
 
 .formulario-cadastro-input {
 	width: 500px;
-	margin: 0.5rem;
-	padding: 4px;
+	margin: 0.3rem;
+	padding: 6px;
 	border: none;
 	background-color: rgb(221, 221, 221);
 	font-weight: 100;
 	border-radius: 4px;
-}
-
-.formulario-cadastro-input:first-child {
-	padding: 6px 4px;
 }
 
 .formulario-cadastro-submit {
@@ -30,4 +26,14 @@
 
 .formulario-cadastro-submit:active {
 	background-color: #777;
+}
+
+.formulario-cadastro-select {
+	width: 150px;
+	align-self: flex-start;
+	border-radius: 4px;
+	border: 0px;
+	background-color: rgb(238, 202, 202);
+	margin: 0.3rem;
+	padding: 4px;
 }

@@ -1,3 +1,10 @@
 .conteudo {
 	display: flex;
+	width: 100%;
+}
+
+.conteudo-principal {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }

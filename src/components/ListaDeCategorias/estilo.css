@@ -1,0 +1,28 @@
+.categorias {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.lista-categorias {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 16px;
+}
+
+.lista-categorias-item {
+	display: flex;
+	background: rgb(246, 184, 184);
+	padding: 5px;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+.categorias-input {
+	padding: 5px;
+	margin: 10px;
+	align-self: flex-end;
+}
+
+
